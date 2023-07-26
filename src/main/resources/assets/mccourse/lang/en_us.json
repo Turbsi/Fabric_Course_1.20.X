@@ -2,5 +2,13 @@
   "item.mccourse.ruby": "Ruby",
   "item.mccourse.raw_ruby": "Raw Ruby",
 
-  "block.mccourse.ruby_block": "Ruby Block"
+  "block.mccourse.ruby_block": "Ruby Block",
+  "block.mccourse.raw_ruby_block": "Raw Ruby Block",
+  "block.mccourse.ruby_ore": "Ruby Ore",
+  "block.mccourse.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.mccourse.nether_ruby_ore": "Nether Ruby Ore",
+  "block.mccourse.end_ruby_ore": "End Ruby Ore",
+
+  "itemgroup.ruby_group": "Ruby Group"
+
 }
