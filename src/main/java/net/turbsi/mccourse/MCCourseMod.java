@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.turbsi.mccourse.block.ModBlocks;
 import net.turbsi.mccourse.item.ModItemGroup;
 import net.turbsi.mccourse.item.ModItems;
+import net.turbsi.mccourse.utils.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +19,7 @@ public class MCCourseMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuff();
 	}
 }

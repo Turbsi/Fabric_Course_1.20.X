@@ -11,11 +11,20 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.turbsi.mccourse.MCCourseMod;
 import net.turbsi.mccourse.block.ModBlocks;
+import net.turbsi.mccourse.item.custom.MetalDetectorItem;
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby",
             new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby",
+            new Item(new FabricItemSettings()));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(256)));
+    public static final Item CORN = registerItem("corn",
+            new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+    public static final Item COOKED_CORN = registerItem("cooked_corn",
+            new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_CORN)));
+    public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
