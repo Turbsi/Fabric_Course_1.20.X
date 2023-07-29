@@ -25,7 +25,7 @@ public class ChainsawItem extends Item {
             Block block = blockState.getBlock();
 
             if (isLogBlock(blockState)){
-                outputLogMessage(player, block);
+                outputLogMessage(player);
             }
         }
 
@@ -37,8 +37,8 @@ public class ChainsawItem extends Item {
         return blockState.isIn(ModTags.Blocks.CHAINSAW_SAWABLE_LOG);
     }
 
-    private void outputLogMessage(PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Chainsawed " + block.getName()));
+    private void outputLogMessage(PlayerEntity player) {
+        player.sendMessage(Text.literal("Chainsawed"));
     }
 
 }

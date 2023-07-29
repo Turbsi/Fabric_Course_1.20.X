@@ -3,19 +3,19 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "mccourse:raw_ruby"
+      "item": "minecraft:copper_ingot"
     },
-    "X": {
-      "item": "minecraft:stone"
+    "I": {
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "XXX",
-    "XCX",
-    "XXX"
+    " CC",
+    "IIC",
+    "II "
   ],
   "result": {
-    "item": "mccourse:ruby_ore"
+    "item": "mccourse:chainsaw"
   },
   "show_notification": true
 }

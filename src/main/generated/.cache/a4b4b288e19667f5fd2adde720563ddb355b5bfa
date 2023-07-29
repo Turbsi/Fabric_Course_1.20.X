@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-28T20:13:47.0286043	MC Course Mod/Recipes
+// 1.20.1	2023-07-29T22:38:49.7297604	MC Course Mod/Recipes
 95fa34c3e67fe2a1d21f11cf7adb8a4b0dbe0897 data\mccourse\advancements\recipes\misc\ruby_from_smelting_ruby_ore.json
 7d0ca8bbfa0742276490a91755500a1f2bf7973b data\mccourse\recipes\ruby_from_blasting_nether_ruby_ore.json
 35730307dc99f80de5a7413d639996b5c67a71eb data\mccourse\advancements\recipes\misc\ruby_from_smelting_deepslate_ruby_ore.json
@@ -10,10 +10,12 @@
 38a7d32d9740c8f9a9c7ea79f1a92126427dc2f4 data\mccourse\advancements\recipes\misc\ruby_from_smelting_end_ruby_ore.json
 254ed262b41a22399d706da402e801a66c6cff12 data\mccourse\recipes\raw_ruby_block.json
 eb466cdaf4a989245a43cf97981097de9fbc603f data\mccourse\recipes\ruby_from_smelting_ruby_ore.json
+8759d85a687c5f6a28c87a66098a82f6fc8e2297 data\mccourse\recipes\chainsaw.json
 8cb9e2cbe6665458ce8210c8e3c7d60d0613cb52 data\mccourse\recipes\ruby_from_blasting_end_ruby_ore.json
+b687cbc76db4b8753bfb965acb1168493b4e456a data\mccourse\advancements\recipes\misc\chainsaw.json
 67fa692d6c84919f48599b0dbf354b752940f59f data\mccourse\recipes\ruby_from_smelting_nether_ruby_ore.json
 2438f5486eb41fe4b5e6a24f1b237519937587e5 data\mccourse\recipes\ruby_block.json
-584722ae2f59feb603b8f5d06814582a5c4b8a54 data\mccourse\recipes\ruby_ore.json
+a3b606e70fcb33328bd5c13494cc0b7d508cc71e data\mccourse\recipes\ruby_ore.json
 1400e1bf478cfee16ab60ad4305b95201fdca773 data\mccourse\advancements\recipes\misc\ruby_ore.json
 e07b0ab72fc9b20ad4327d6778ba4361c2b49141 data\mccourse\advancements\recipes\misc\raw_ruby.json
 391d5dff741a44a78529e1e5707c81b29926eaf2 data\mccourse\advancements\recipes\misc\ruby_from_smelting_nether_ruby_ore.json

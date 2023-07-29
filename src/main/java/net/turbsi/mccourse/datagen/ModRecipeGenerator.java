@@ -45,7 +45,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHAINSAW)
                 .pattern(" CC")
                 .pattern("IIC")
-                .pattern("II")
+                .pattern("II ")
                 .input('I', Items.IRON_INGOT)
                 .input('C', Items.COPPER_INGOT)
                 .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
