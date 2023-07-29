@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.turbsi.mccourse.MCCourseMod;
 import net.turbsi.mccourse.block.ModBlocks;
+import net.turbsi.mccourse.item.custom.ChainsawItem;
 import net.turbsi.mccourse.item.custom.MetalDetectorItem;
 
 public class ModItems {
@@ -26,6 +27,8 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_CORN)));
     public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
+    public static final Item CHAINSAW = registerItem("chainsaw",
+            new ChainsawItem(new FabricItemSettings().maxDamage(256)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(MCCourseMod.MOD_ID, name), item);

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "mccourse:ruby_ore",
-    "mccourse:deepslate_ruby_ore",
-    "mccourse:ruby_block",
-    "mccourse:raw_ruby_block"
-  ]
-}

@@ -4,6 +4,14 @@
     "mccourse:ruby_ore",
     "mccourse:deepslate_ruby_ore",
     "mccourse:raw_ruby_block",
-    "mccourse:ruby_block"
+    "mccourse:ruby_block",
+    "mccourse:ruby_stairs",
+    "mccourse:ruby_slab",
+    "mccourse:ruby_pressure_plate",
+    "mccourse:ruby_fence",
+    "mccourse:ruby_fence_gate",
+    "mccourse:ruby_wall",
+    "mccourse:ruby_door",
+    "mccourse:ruby_trapdoor"
   ]
 }

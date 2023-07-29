@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.turbsi.mccourse.block.ModBlocks;
@@ -21,7 +22,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PEAT_BLOCK)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RUBY_ORE)
                 .pattern("XXX")
                 .pattern("XCX")
                 .pattern("XXX")
@@ -40,6 +41,15 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerBlasting(exporter, List.of(ModItems.RAW_RUBY, ModBlocks.RUBY_ORE, ModBlocks.DEEPSLATE_RUBY_ORE,
                 ModBlocks.NETHER_RUBY_ORE, ModBlocks.END_RUBY_ORE), RecipeCategory.MISC, ModItems.RUBY,
                 0.25f, 100, "ruby");
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CHAINSAW)
+                .pattern(" CC")
+                .pattern("IIC")
+                .pattern("II")
+                .input('I', Items.IRON_INGOT)
+                .input('C', Items.COPPER_INGOT)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CHAINSAW)));
 
     }
 }

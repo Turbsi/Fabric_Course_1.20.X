@@ -12,6 +12,8 @@ public class ModTags {
     public static class Blocks{
         public static final TagKey<Block> METAL_DETECTOR_DETECTABLE_BLOCK = createBlockTag("metal_detector_detectable_block");
 
+        public static final TagKey<Block> CHAINSAW_SAWABLE_LOG = createBlockTag("chainsaw_sawable_log");
+
 
         private static TagKey<Block> createBlockTag(String name){
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(MCCourseMod.MOD_ID, name));

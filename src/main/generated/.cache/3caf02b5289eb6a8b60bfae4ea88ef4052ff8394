@@ -1,0 +1,16 @@
+// 1.20.1	2023-07-28T20:13:47.0306052	MC Course Mod/Block Loot Tables
+f50a228f604a07c0111eef85bf6eb2f1e2cbbd2c data\mccourse\loot_tables\blocks\ruby_button.json
+3bc56a22d21e1715a35e4b0c37f9c9f3bd34413c data\mccourse\loot_tables\blocks\nether_ruby_ore.json
+d6ae73cb75d399a74cdd295cc06a91e845d0c587 data\mccourse\loot_tables\blocks\ruby_pressure_plate.json
+e9a4b15a3a592c97395ca114305267562869a090 data\mccourse\loot_tables\blocks\ruby_slab.json
+d3cb4954af3dbb177d449d5f3c6bddb127d97ff9 data\mccourse\loot_tables\blocks\ruby_ore.json
+9e33d786e62ebcfb79a746412d335ec5c73ed3dd data\mccourse\loot_tables\blocks\ruby_block.json
+b71434591129d09b9276184ea51957ca2a29f55b data\mccourse\loot_tables\blocks\ruby_door.json
+a4344521d4ff7b47f1b364c647ae1497d998e47a data\mccourse\loot_tables\blocks\ruby_stairs.json
+b061d56e853b07f226e6ece6c319d63694cce3d6 data\mccourse\loot_tables\blocks\raw_ruby_block.json
+3d3030550938a523a0bf30b7171472d6c55bfe53 data\mccourse\loot_tables\blocks\ruby_fence_gate.json
+53cfaca7c7ecfdb1eb1f0d9c8cc700cd03d26539 data\mccourse\loot_tables\blocks\ruby_fence.json
+2f9c08aff470ecb42f54a404b65be591a705d609 data\mccourse\loot_tables\blocks\end_ruby_ore.json
+924ecf8e1dbabd960bc690e4399226437df2d326 data\mccourse\loot_tables\blocks\deepslate_ruby_ore.json
+64ed5cc9df22a8a1f65edff35fa033249496f895 data\mccourse\loot_tables\blocks\ruby_wall.json
+a27e8f254fd8d0a8605312b2617ef42ab092f696 data\mccourse\loot_tables\blocks\ruby_trapdoor.json
